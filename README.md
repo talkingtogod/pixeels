@@ -2,8 +2,6 @@
 # PixelPlanet – Internal Technical Overview
 
 This document explains **how PixelPlanet works internally**: APIs, WebSocket messages, pixel placement flow, cooldown logic, canvas system, storage, and important backend functions.  
-This is **not a deployment guide**.  
-It is a **technical explanation of how the game functions under the hood**.
 
 ---
 
@@ -370,8 +368,6 @@ PixelPlanet works by:
 - Enforcing cooldowns, rate limits, and optional proxy controls  
 - Broadcasting updates to all active players  
 - Allowing multiple canvas types (flat, globe, voxel)
-
-This overview describes the internal communication, APIs, functions, and data flow used by the PixelPlanet codebase.
 
 ---
 
